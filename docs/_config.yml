@@ -1,0 +1,23 @@
+# _config.yml
+title: Routine Checkup
+email: info@routinecheckup.com
+description: >-
+  Cloud Checks
+baseurl: ''
+url: 'https://routinecheckup.com'
+
+# Build settings
+theme: minimal-mistakes-jekyll
+
+plugins:
+  - jekyll-feed
+
+include:
+  - _pages/
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
