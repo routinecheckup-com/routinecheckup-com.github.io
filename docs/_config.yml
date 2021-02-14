@@ -5,16 +5,16 @@ description: >-
   Cloud Checks
 baseurl: ''
 url: 'https://routinecheckup.com'
+repository:  'routinecheckup-com/routinecheckup-com.github.io'
 
 # Build settings
-remote_theme: minimal-mistakes-jekyll
+remote_theme: 'mmistakes/minimal-mistakes@4.22.0'
 
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
 
-include:
-  - _pages/
+include: ['_pages']
 
 exclude:
   - .sass-cache/
